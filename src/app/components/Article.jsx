@@ -1,5 +1,6 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 const Article = () => {
     return (
@@ -14,7 +15,7 @@ const Article = () => {
                                 Entertainment
                             </div>
                             <h3>
-                                <NavLink className='navlink-color' to={'/articleDetails'}>Lorem ipsum dolor site</NavLink>
+                                <Link className='navlink-color' href="/articleDetails">Lorem ipsum dolor site</Link>
                             </h3>
                             <p>
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -33,7 +34,7 @@ const Article = () => {
                             Sports
                         </div>
                         <h3>
-                            <NavLink className='navlink-color' to={'/articleDetails'}>Lorem ipsum dolor site</NavLink>
+                            <Link className='navlink-color' href="/articleDetails">Lorem ipsum dolor site</Link>
                         </h3>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -52,7 +53,7 @@ const Article = () => {
                             Technology
                         </div>
                         <h3>
-                            <NavLink className='navlink-color' to={'/articleDetails'}>Lorem ipsum dolor site</NavLink>
+                            <Link className='navlink-color' href="/articleDetails">Lorem ipsum dolor site</Link>
                         </h3>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -71,7 +72,7 @@ const Article = () => {
                                 Sports
                             </div>
                             <h3>
-                                <NavLink className='navlink-color' to={'/articleDetails'}>Lorem ipsum dolor site</NavLink>
+                                <Link className='navlink-color' href="/articleDetails">Lorem ipsum dolor site</Link>
                             </h3>
                             <p>
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -92,7 +93,7 @@ const Article = () => {
                             Technology
                         </div>
                         <h3>
-                            <NavLink className='navlink-color' to={'/articleDetails'}>Lorem ipsum dolor site</NavLink>
+                            <Link className='navlink-color' href="/articleDetails">Lorem ipsum dolor site</Link>
                         </h3>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -110,7 +111,7 @@ const Article = () => {
                             Sports
                         </div>
                         <h3>
-                            <NavLink className='navlink-color' to={'/articleDetails'}>Lorem ipsum dolor site</NavLink>
+                            <Link className='navlink-color' href="/articleDetails">Lorem ipsum dolor site</Link>
                         </h3>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -129,7 +130,7 @@ const Article = () => {
                                 Entertainment
                             </div>
                             <h3>
-                                <NavLink className='navlink-color' to={'/articleDetails'}>Lorem ipsum dolor site</NavLink>
+                                <Link className='navlink-color' href="/articleDetails">Lorem ipsum dolor site</Link>
                             </h3>
                             <p>
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
